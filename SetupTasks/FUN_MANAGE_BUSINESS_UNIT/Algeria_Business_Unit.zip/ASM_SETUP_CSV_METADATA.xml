@@ -1,9 +1,9 @@
 <MigrationProcessCSVMetadataVO>
    <MigrationProcessCSVMetadataVORow>
       <ProcessId>-999</ProcessId>
-      <ProcessName>Manage Business Unit_20240202_045939_950</ProcessName>
-      <ProcessDescription>Manage Business Unit_20240202_045939_950</ProcessDescription>
-      <ProcessDate>2024-02-02 05:00:10.416</ProcessDate>
+      <ProcessName>Manage Business Unit_20240202_050024_923</ProcessName>
+      <ProcessDescription>Manage Business Unit_20240202_050024_923</ProcessDescription>
+      <ProcessDate>2024-02-02 05:00:56.135</ProcessDate>
       <ObjectShortName>FUN_MANAGE_BUSINESS_UNIT</ObjectShortName>
       <ObjectType>TASK</ObjectType>
       <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
@@ -46,16 +46,7 @@
          </MigrationProcessBusinessObjectCSVMetadataVORow>
       </MigrationProcessBusinessObjectCSVMetadata1>
       <MigrationProcessBatchCSVMetadata null="true"/>
-      <MigrationProcessScopeValueCSVMetadata>
-         <MigrationProcessScopeValueCSVMetadataVORow>
-            <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804986968</MigScopeValueSetId>
-            <BusinessObjectShortName>FUN_BUSINESS_UNIT</BusinessObjectShortName>
-            <ScopeValueBoAttributeId>Name</ScopeValueBoAttributeId>
-            <ScopeValueBoAttributeValue>Aquisition Business Unit</ScopeValueBoAttributeValue>
-            <ScopeValueBoAttributeValueCode>Aquisition Business Unit</ScopeValueBoAttributeValueCode>
-         </MigrationProcessScopeValueCSVMetadataVORow>
-      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata null="true"/>
       <MigrationProcessMigrationObjectCSVMetadata>
          <MigrationProcessMigrationObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>

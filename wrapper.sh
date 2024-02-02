@@ -9,9 +9,13 @@ setOutput()
         exit 1
     fi
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     echo "${2}" > "/u01/flexdeploy/application/localhost/work/11408085/2898113/internal/outputs/${1}"
 =======
     echo "${2}" > "/u01/flexdeploy/application/localhost/work/11408085/2898118/internal/outputs/${1}"
+>>>>>>> Stashed changes
+=======
+    echo "${2}" > "/u01/flexdeploy/application/localhost/work/11408085/2898115/internal/outputs/${1}"
 >>>>>>> Stashed changes
 }
 

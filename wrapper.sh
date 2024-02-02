@@ -8,7 +8,7 @@ setOutput()
         echo "Key and value required on setOutput function call"
         exit 1
     fi
-    echo "${2}" > "/u01/flexdeploy/application/localhost/work/11408226/2899585/internal/outputs/${1}"
+    echo "${2}" > "/u01/flexdeploy/application/localhost/work/11408226/2900731/internal/outputs/${1}"
 }
 
 

@@ -1,9 +1,9 @@
 <MigrationProcessCSVMetadataVO>
    <MigrationProcessCSVMetadataVORow>
       <ProcessId>-999</ProcessId>
-      <ProcessName>Manage Business Unit_20240206_072726_562</ProcessName>
-      <ProcessDescription>Manage Business Unit_20240206_072726_562</ProcessDescription>
-      <ProcessDate>2024-02-06 19:28:03.321</ProcessDate>
+      <ProcessName>Manage Business Unit_20240206_072640_525</ProcessName>
+      <ProcessDescription>Manage Business Unit_20240206_072640_525</ProcessDescription>
+      <ProcessDate>2024-02-06 19:27:03.75</ProcessDate>
       <ObjectShortName>FUN_MANAGE_BUSINESS_UNIT</ObjectShortName>
       <ObjectType>TASK</ObjectType>
       <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
@@ -49,11 +49,11 @@
       <MigrationProcessScopeValueCSVMetadata>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001805979571</MigScopeValueSetId>
+            <MigScopeValueSetId>100001805979416</MigScopeValueSetId>
             <BusinessObjectShortName>FUN_BUSINESS_UNIT</BusinessObjectShortName>
             <ScopeValueBoAttributeId>Name</ScopeValueBoAttributeId>
-            <ScopeValueBoAttributeValue>Philippines Business Unit</ScopeValueBoAttributeValue>
-            <ScopeValueBoAttributeValueCode>Philippines Business Unit</ScopeValueBoAttributeValueCode>
+            <ScopeValueBoAttributeValue>AU Council Business Unit</ScopeValueBoAttributeValue>
+            <ScopeValueBoAttributeValueCode>AU Council Business Unit</ScopeValueBoAttributeValueCode>
          </MigrationProcessScopeValueCSVMetadataVORow>
       </MigrationProcessScopeValueCSVMetadata>
       <MigrationProcessMigrationObjectCSVMetadata>

@@ -49,7 +49,7 @@
       <MigrationProcessScopeValueCSVMetadata>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001806983124</MigScopeValueSetId>
+            <MigScopeValueSetId>100001806983279</MigScopeValueSetId>
             <BusinessObjectShortName>FUN_BUSINESS_UNIT</BusinessObjectShortName>
             <ScopeValueBoAttributeId>Name</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>AU Council Business Unit</ScopeValueBoAttributeValue>

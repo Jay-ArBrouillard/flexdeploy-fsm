@@ -46,16 +46,7 @@
          </MigrationProcessBusinessObjectCSVMetadataVORow>
       </MigrationProcessBusinessObjectCSVMetadata1>
       <MigrationProcessBatchCSVMetadata null="true"/>
-      <MigrationProcessScopeValueCSVMetadata>
-         <MigrationProcessScopeValueCSVMetadataVORow>
-            <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001806983279</MigScopeValueSetId>
-            <BusinessObjectShortName>FUN_BUSINESS_UNIT</BusinessObjectShortName>
-            <ScopeValueBoAttributeId>Name</ScopeValueBoAttributeId>
-            <ScopeValueBoAttributeValue>AU Council Business Unit</ScopeValueBoAttributeValue>
-            <ScopeValueBoAttributeValueCode>AU Council Business Unit</ScopeValueBoAttributeValueCode>
-         </MigrationProcessScopeValueCSVMetadataVORow>
-      </MigrationProcessScopeValueCSVMetadata>
+      <MigrationProcessScopeValueCSVMetadata/>
       <MigrationProcessMigrationObjectCSVMetadata>
          <MigrationProcessMigrationObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>

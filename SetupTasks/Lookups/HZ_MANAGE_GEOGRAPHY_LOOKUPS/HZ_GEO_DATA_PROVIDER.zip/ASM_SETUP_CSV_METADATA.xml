@@ -1,36 +1,20 @@
-<MigrationProcessCSVMetadataVO>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MigrationProcessCSVMetadataVO>
    <MigrationProcessCSVMetadataVORow>
       <ProcessId>-999</ProcessId>
-      <ProcessName>Manage Geography Lookups_20240202_053302_888</ProcessName>
-      <ProcessDescription>Manage Geography Lookups_20240202_053302_888</ProcessDescription>
-      <ProcessDate>2024-02-02 17:33:32.653</ProcessDate>
+      <ProcessName>Manage Geography Lookups</ProcessName>
+      <ProcessDescription>Manage Geography Lookups</ProcessDescription>
+      <ProcessDate/>
       <ObjectShortName>HZ_MANAGE_GEOGRAPHY_LOOKUPS</ObjectShortName>
       <ObjectType>TASK</ObjectType>
       <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
       <MigrationProcessBusinessObjectCSVMetadata1>
-         <MigrationProcessBusinessObjectCSVMetadataVORow>
-            <ProcessId>-999</ProcessId>
-            <BusinessObjectShortName>ORA_FND_APP_STANDARD_LOOKUP_CODE</BusinessObjectShortName>
-            <BatchName>48a3dbf1-49d3-494d-bda8-8e6b50deb6c4/FND_APP_STANDARD_LOOKUP/StandardLookupType1</BatchName>
-            <XmlAttributeList>LookupCode,Meaning,Description,EnabledFlag,StartDateActive,EndDateActive,DisplaySequence,CreatedBy,CreationDate,LastUpdatedBy,LastUpdateDate,LastUpdateLogin,Tag</XmlAttributeList>
-            <XmlAttributeTypeList>string,string,string,string,date,date,long,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
-            <XmlNodePath>/StandardLookupType1VO/StandardLookupType1VORow/Lookup1VO/Lookup1VORow</XmlNodePath>
-            <NodeSequence>2</NodeSequence>
-         </MigrationProcessBusinessObjectCSVMetadataVORow>
-         <MigrationProcessBusinessObjectCSVMetadataVORow>
-            <ProcessId>-999</ProcessId>
-            <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
-            <BatchName>48a3dbf1-49d3-494d-bda8-8e6b50deb6c4/FND_APP_STANDARD_LOOKUP/StandardLookupType1</BatchName>
-            <XmlAttributeList>LookupType,Meaning,Description,CreatedBy,CreationDate,LastUpdatedBy,LastUpdateDate,LastUpdateLogin,ModuleId,CustomizationLevel,RestAccessSecured,BossAppPackageName,BossModuleName,BossIdentifier</XmlAttributeList>
-            <XmlAttributeTypeList>string,string,string,string,dateTime,string,dateTime,string,string,string,string,string,string,string</XmlAttributeTypeList>
-            <XmlNodePath>/StandardLookupType1VO/StandardLookupType1VORow</XmlNodePath>
-            <NodeSequence>1</NodeSequence>
-         </MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>FND_APP_STANDARD_LOOKUP/StandardLookupType1</MigrationProcessBusinessObjectCSVMetadataVORow>
+         <MigrationProcessBusinessObjectCSVMetadataVORow>FND_APP_STANDARD_LOOKUP/StandardLookupType1</MigrationProcessBusinessObjectCSVMetadataVORow>
       </MigrationProcessBusinessObjectCSVMetadata1>
       <MigrationProcessBatchCSVMetadata>
          <MigrationProcessBatchCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <BatchName>48a3dbf1-49d3-494d-bda8-8e6b50deb6c4/FND_APP_STANDARD_LOOKUP/StandardLookupType1</BatchName>
+            <BatchName>56eb21f6-d433-4bc2-a2c8-3e0a049eba92/FND_APP_STANDARD_LOOKUP/StandardLookupType1</BatchName>
             <ImportSequence>0</ImportSequence>
             <ServiceName>oracle.apps.fnd.applcore.lookups.webservice.LookupWS</ServiceName>
             <BatchSize>500</BatchSize>
@@ -39,7 +23,7 @@
       <MigrationProcessScopeValueCSVMetadata>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989366</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>LookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEO_DATA_PROVIDER</ScopeValueBoAttributeValue>
@@ -47,7 +31,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989362</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
@@ -55,7 +39,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989362</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>lookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEO_POSTAL_CODE_RANGE_FLAG</ScopeValueBoAttributeValue>
@@ -63,7 +47,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989359</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
@@ -71,7 +55,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989359</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>lookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEO_IDENTIFIER_TYPE</ScopeValueBoAttributeValue>
@@ -79,7 +63,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989356</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
@@ -87,7 +71,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989356</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>lookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEO_IDENTIFIER_SUBTYPE</ScopeValueBoAttributeValue>
@@ -95,7 +79,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989353</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
@@ -103,7 +87,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989353</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>lookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEO_GNR_RUN_TYPE</ScopeValueBoAttributeValue>
@@ -111,7 +95,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989350</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
@@ -119,7 +103,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989350</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>lookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEO_DISPLAY_ONLY</ScopeValueBoAttributeValue>
@@ -127,7 +111,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989347</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
@@ -135,7 +119,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989347</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>lookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEO_DATA_PROVIDER</ScopeValueBoAttributeValue>
@@ -143,7 +127,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989344</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>edit</ScopeValueBoAttributeValue>
@@ -151,7 +135,7 @@
          </MigrationProcessScopeValueCSVMetadataVORow>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001804989344</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_STANDARD_LOOKUP</BusinessObjectShortName>
             <ScopeValueBoAttributeId>lookupType</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>HZ_GEOGRAPHY_USAGE</ScopeValueBoAttributeValue>

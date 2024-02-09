@@ -1,9 +1,9 @@
-<MigrationProcessCSVMetadataVO>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MigrationProcessCSVMetadataVO>
    <MigrationProcessCSVMetadataVORow>
       <ProcessId>-999</ProcessId>
-      <ProcessName>Manage Descriptive Flexfields_20240206_081725_148</ProcessName>
-      <ProcessDescription>Manage Descriptive Flexfields_20240206_081725_148</ProcessDescription>
-      <ProcessDate>2024-02-06 20:18:57.897</ProcessDate>
+      <ProcessName>Manage Descriptive Flexfields</ProcessName>
+      <ProcessDescription>Manage Descriptive Flexfields</ProcessDescription>
+      <ProcessDate/>
       <ObjectShortName>FND_MANAGE_DESCRIPTIVE_FLEXFIELDS</ObjectShortName>
       <ObjectType>TASK</ObjectType>
       <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
@@ -11,7 +11,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_GLOBAL_SEGMENT</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>ContextCode,SegmentCode,SegmentIdentifier,ColumnName,Name,Description,Prompt,ShortPrompt,TerminologyHelpText,InFieldHelpText,SequenceNumber,EnabledFlag,DisplayType,DisplayWidth,DisplayHeight,CheckboxCheckedValue,CheckboxUncheckedValue,RequiredFlag,RangeType,DefaultType,DefaultValue,DefaultValueNumber,DefaultValueDate,DefaultValueTimestamp,DerivationValue,ReadOnlyFlag,BIEnabledFlag,BIEqualizationTag,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,ValueSetCode,UomClassCode</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,int,string,string,int,int,string,string,string,string,string,string,decimal,date,dateTime,string,string,string,string,dateTime,string,dateTime,string,string,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/GlobalSegmentVO/GlobalSegmentVORow</XmlNodePath>
@@ -20,7 +20,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_APPLICATION_DESCRIPTIVE_FLEXFIELD_CONTEXT_VALIDATOR</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>ValidatorCode,ValidatorExpression,ErrorMessage,Description,CreatedBy,CreationDate,LastUpdateDate,LastUpdateLogin,LastUpdatedBy</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,string,string,dateTime,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/ContextVO/ContextVORow/DescriptiveFlexfieldContextValidatorVO/DescriptiveFlexfieldContextValidatorVORow</XmlNodePath>
@@ -29,7 +29,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_SEGMENT_LABEL</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>SegmentLabelCode,Name,Description,BIObjectName,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/SegmentLabelVO/SegmentLabelVORow</XmlNodePath>
@@ -38,7 +38,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_PAGE</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>CategoryCode,PageCode,ProtectedFlag,SequenceNumber,Name,Description,InstructionHelpText,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,int,string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/FlexfieldUsageVO/FlexfieldUsageVORow/ExtensibleFlexfieldUiPageVO/ExtensibleFlexfieldUiPageVORow</XmlNodePath>
@@ -47,7 +47,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_PAGE_TASK_FLOW</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>ContextCode,ContextCategoryCode,SequenceNumber,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
             <XmlAttributeTypeList>string,string,int,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/FlexfieldUsageVO/FlexfieldUsageVORow/ExtensibleFlexfieldUiPageVO/ExtensibleFlexfieldUiPageVORow/ExtensibleFlexfieldUiPageTaskFlowVO/ExtensibleFlexfieldUiPageTaskFlowVORow</XmlNodePath>
@@ -56,7 +56,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_SEGMENT</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>SegmentCode,SegmentIdentifier,ColumnName,Name,Description,Prompt,ShortPrompt,TerminologyHelpText,InFieldHelpText,SequenceNumber,EnabledFlag,DisplayType,DisplayWidth,DisplayHeight,CheckboxCheckedValue,CheckboxUncheckedValue,RequiredFlag,RangeType,DefaultType,DefaultValue,DefaultValueNumber,DefaultValueDate,DefaultValueTimestamp,DerivationValue,ReadOnlyFlag,BIEnabledFlag,BIEqualizationTag,IndexedFlag,MultirowUniqueKeyFlag,ShowValueDescription,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,ValueSetCode,UomClassCode</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,int,string,string,int,int,string,string,string,string,string,string,decimal,date,dateTime,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/ContextVO/ContextVORow/SegmentVO/SegmentVORow</XmlNodePath>
@@ -65,7 +65,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_USAGE</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>FlexfieldUsageCode</XmlAttributeList>
             <XmlAttributeTypeList>string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/FlexfieldUsageVO/FlexfieldUsageVORow</XmlNodePath>
@@ -74,7 +74,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_GLOBAL_SEGMENT_VALIDATOR</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>ContextCode,ValidatorCode,ValidatorExpression,ErrorMessage,Description,CreatedBy,CreationDate,LastUpdateDate,LastUpdateLogin,LastUpdatedBy</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,string,string,string,dateTime,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/DescriptiveFlexfieldGlobalSegmentsValidatorVO/DescriptiveFlexfieldGlobalSegmentsValidatorVORow</XmlNodePath>
@@ -83,7 +83,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_CONTEXT</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>ContextCode,ContextIdentifier,Name,Description,InstructionHelpText,EnabledFlag,MultirowFlag,AdvancedQueryFlag,TranslatableFlag,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/ContextVO/ContextVORow</XmlNodePath>
@@ -92,7 +92,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_CONTEXT_CATEGORY</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>CategoryCode,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
             <XmlAttributeTypeList>string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/ContextVO/ContextVORow/ExtensibleFlexfieldCategoryVO/ExtensibleFlexfieldCategoryVORow</XmlNodePath>
@@ -101,7 +101,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_CONTEXT_SEGMENT</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>ContextCode,SegmentCode,SegmentIdentifier,ColumnName,Name,Description,Prompt,ShortPrompt,TerminologyHelpText,InFieldHelpText,DisplayType,DisplayWidth,RequiredFlag,DefaultType,DefaultValue,DerivationValue,ReadOnlyFlag,BIEnabledFlag,BIEqualizationTag,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin,ValueSetCode</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,string,string,string,string,string,string,string,string,int,string,string,string,string,string,string,string,dateTime,string,dateTime,string,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/ContextSegmentVO/ContextSegmentVORow</XmlNodePath>
@@ -110,7 +110,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>ORA_FND_APP_DESCRIPTIVE_FLEXFIELD_CONTEXT_USAGE</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>FlexfieldUsageCode,ViewPrivilegeName,EditPrivilegeName,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
             <XmlAttributeTypeList>string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow/ContextVO/ContextVORow/ExtensibleFlexfieldContextUsageVO/ExtensibleFlexfieldContextUsageVORow</XmlNodePath>
@@ -119,7 +119,7 @@
          <MigrationProcessBusinessObjectCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
             <BusinessObjectShortName>FND_APP_DESCRIPTIVE_FLEXFIELD</BusinessObjectShortName>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <XmlAttributeList>ApplicationId,DescriptiveFlexfieldCode,Name,Description,Delimiter,CreationDate,CreatedBy,LastUpdateDate,LastUpdatedBy,LastUpdateLogin</XmlAttributeList>
             <XmlAttributeTypeList>long,string,string,string,string,dateTime,string,dateTime,string,string</XmlAttributeTypeList>
             <XmlNodePath>/DescriptiveFlexfieldVO/DescriptiveFlexfieldVORow</XmlNodePath>
@@ -129,7 +129,7 @@
       <MigrationProcessBatchCSVMetadata>
          <MigrationProcessBatchCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <BatchName>0ac3e659-07c5-49b2-abfd-8450d9a5da10/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
+            <BatchName>129ff86b-7fae-44b3-b1e3-e76731cd286a/FND_APP_DESCRIPTIVE_FLEXFIELD/DescriptiveFlexfield</BatchName>
             <ImportSequence>0</ImportSequence>
             <ServiceName>oracle.apps.fnd.applcore.flex.webservice.DescriptiveFlexfieldWS</ServiceName>
             <BatchSize>500</BatchSize>
@@ -138,7 +138,7 @@
       <MigrationProcessScopeValueCSVMetadata>
          <MigrationProcessScopeValueCSVMetadataVORow>
             <ProcessId>-999</ProcessId>
-            <MigScopeValueSetId>100001805980203</MigScopeValueSetId>
+            <MigScopeValueSetId/>
             <BusinessObjectShortName>FND_APP_DESCRIPTIVE_FLEXFIELD</BusinessObjectShortName>
             <ScopeValueBoAttributeId>mode</ScopeValueBoAttributeId>
             <ScopeValueBoAttributeValue>search</ScopeValueBoAttributeValue>

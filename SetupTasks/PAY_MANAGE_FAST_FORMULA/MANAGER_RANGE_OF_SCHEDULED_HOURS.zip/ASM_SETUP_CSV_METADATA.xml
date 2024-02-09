@@ -1,9 +1,9 @@
-<MigrationProcessCSVMetadataVO>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MigrationProcessCSVMetadataVO>
    <MigrationProcessCSVMetadataVORow>
       <ProcessId>-999</ProcessId>
-      <ProcessName>Fast Formulas_20240206_081913_226</ProcessName>
-      <ProcessDescription>Fast Formulas_20240206_081913_226</ProcessDescription>
-      <ProcessDate>2024-02-06 20:31:03.546</ProcessDate>
+      <ProcessName>Fast Formulas</ProcessName>
+      <ProcessDescription>Fast Formulas</ProcessDescription>
+      <ProcessDate/>
       <ObjectShortName>PAY_MANAGE_FAST_FORMULA</ObjectShortName>
       <ObjectType>TASK</ObjectType>
       <CreatedByFlow>TASK_CSV_SERVICE</CreatedByFlow>
